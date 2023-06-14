@@ -14,7 +14,7 @@ const App = () => {
         </nav>
       </section>
       <section className="main">
-        <h1>SOLOMON</h1>
+        <h1><p>WELLCOME</p><p>TO</p>SOLOMON</h1>
         <ul className='feed'>
 
         </ul>
@@ -22,12 +22,12 @@ const App = () => {
           <div className='input-container'>
             <input />
             <div id='submit'>
-              <FontAwesomeIcon icon={faShare} />
+              <FontAwesomeIcon  icon={faShare} />
             </div>
+          </div>
             <p className='info'>
               Meet Solomon, the chatbot designed to streamline your communication. With cutting-edge AI technology, Solomon is always ready to assist, inform, and engage in meaningful conversations.
             </p>
-          </div>
         </div>
       </section>
     </div>
